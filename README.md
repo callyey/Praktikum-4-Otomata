@@ -6,6 +6,8 @@
 
   Program ini mensimulasikan Deterministic Pushdown Automata (DPDA) untuk mengenali bahasa Palindrome. Secara teori, pengenalan palindrome murni (w w^R) bersifat non-deterministik karena mesin harus menebak di mana titik tengah string berada. Namun, untuk kebutuhan simulasi fungsional, program ini menggunakan pendekatan algoritmik untuk menentukan titik tengah berdasarkan panjang string guna memvisualisasikan operasi stack secara sistematis.
 
+  Implementasi: [Praktikum4](https://callyey.github.io/Praktikum-4-Otomata/)
+
 ## **Komponen Otomata dalam Kode:**
 
 * Alfabet Input (Sigma):
