@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome PDA Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-wrapper">
+        <aside class="sidebar">
+            <h2>PDA CONFIG</h2>
+            <div class="config-group">
+                <label>Bahasa:</label>
+                <p>Palindrome (w w^R)</p>
+                <label>Input Alphabet:</label>
+                <p>(letter + digit)*</p>
+                <label>Stack Alphabet:</label>
+                <p>{A-Z, 0-9, Z}</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>PALINDROME DETECTOR</h1>
+                <p>Automata Analysis System</p>
+            </header>
+
+            <section class="input-section">
+                <input type="text" id="input-string" placeholder="Masukkan string alfanumerik...">
+                <button onclick="analyzePalindrome()">VERIFIKASI</button>
+            </section>
+
+            <section id="result-display" class="result-card hidden">
+                <h3 id="result-title">STATUS</h3>
+                <p id="result-desc"></p>
+            </section>
+
+            <section class="log-section">
+                <h3>Visualisasi Stack & Transisi</h3>
+                <div id="stack-logs" class="logs"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
